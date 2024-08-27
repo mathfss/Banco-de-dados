@@ -1,0 +1,33 @@
+// Código da validation para colocar no MongoDB
+
+{
+    $jsonSchema: {
+      bsonType: 'object',
+      required: [
+        '_id',
+        'titulo',
+        'autor',
+        'ano',
+        'preco'
+      ],
+      properties: {
+        _id: {
+          description: 'deve ser um inteiro'
+        },
+        titulo: {
+          bsonType: 'string',
+          description: 'deve ser uma string'
+        },
+        autor: {
+          bsonType: 'string',
+          description: 'deve ser uma string'
+        },
+        ano: {
+          description: 'deve ser um inteiro'
+        },
+        preco: {
+          description: 'deve ser um número de ponto flutuante'
+        }
+      }
+    }
+  }

@@ -1,0 +1,5 @@
+{
+    "aulas" : [{"professor": "Lucas", "assunto": "Progamacao Orientada a Objetos", "alunos": "Maria, Pedro, Joao, Carlos"}, 
+                {"professor": "Soned", "assunto": "Algoritmos 1", "alunos": "Jose, Caio, Matheus, Vinicius"}, 
+                {"professor": "Daniela", "assunto": "Fisica 1", "alunos": "Felipe, Alexandre, Antonio, Gustavo"}]
+}
